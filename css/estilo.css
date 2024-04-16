@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    background-color: black;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 450px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.lupa {
+    height: 20px;
+    width: 20px;
+
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 50px;
+
+
+}
+
+button:hover {
+
+    transition: 1s;
+    background: white;
+    transform: rotate3d(0, 0, 1, 360deg);
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+    font-size: 15px;
+
+}
+
+.content_conteudo {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h2 {
+
+    font-size: 28px;
+}
+
+.graus {
+
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.umidade {
+    margin-top: 30px;
+
+}
